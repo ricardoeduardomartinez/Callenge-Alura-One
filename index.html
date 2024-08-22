@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="caja__principal">
+            <div class="caja__uno">
+                <a href="https://www.aluracursos.com/" target="_blank" title="Sumérgete en tecnología!">   
+                    <div class="caja__imagen">
+                        <img src="./images/a vector.png" alt="inicial a de Alura">
+                    </div>
+                </a>    
+                <div class="caja__texto">
+                    <textarea class="ingrese__texto" type="text" placeholder="Ingrese el texto aqui"></textarea>    
+                </div>
+                <div class="caja1__caja-botones">
+                    <div class="alerta__condicional" >
+                        <i class="bi bi-exclamation-circle"></i>
+                        <span>Solo letras minúsculas y sin acentos</span>
+                    </div>
+                    <div class="botones">
+                        <button onclick="encriptando()" class="boton__encriptar">Encriptar</button>
+                        <button onclick="desencriptando()" class="boton__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="caja__dos">
+                <div class="caja__texto-convertido">
+                    <textarea readonly id="texto__convertido" class="texto__convertido">
+                    </textarea>
+                </div>
+                <div id="espera__mensaje" class="espera__mensaje">
+                    <div class="caja__muñeco">
+                        <img src="./images/Muñeco.png" alt="">
+                    </div>
+                    <div class="avisos">
+                        <h2> Ningún mensaje fue encontrado </h2>
+                        <span> Ingresa el texto que desees encriptar o desencriptar.</span>
+                    </div>
+                </div>
+                <div onclick="borrar()" id="boton__borrar" class="boton__borrar">
+                    <button>Borrar Todo!</button>
+                </div>
+                <div onclick="copiando()" id="boton__copiar" class="boton__copiar">
+                    <button>Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Alura Challenges ONE </h3>
+        <h3>Ricardo Martinez 2024 </h3>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+               
+
+                
+
