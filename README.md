@@ -1,1 +1,1 @@
-Subido el archivo, se deben para metrizar las ubicaciones de las img en el HTML
+Subido el archivo, se deben parametrizar las ubicaciones de las img en el HTML
