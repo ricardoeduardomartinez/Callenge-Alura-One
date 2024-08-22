@@ -773,7 +773,7 @@ h3{
         align-items: center;
         justify-content: center;
         font-family: "Inter", sans-serif;
-    
+        display: flex;
     }
     
 }   
